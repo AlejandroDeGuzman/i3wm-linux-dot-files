@@ -202,4 +202,5 @@ bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
-
+# for wallpaper execution
+exec_always feh --bg-scale /home/alejandro/Wallpapers/deathstrandinglandscape1.jpg
