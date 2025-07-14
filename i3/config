@@ -232,14 +232,13 @@ bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
-# for wallpaper execution
-exec_always feh --bg-scale /home/alejandro/Wallpapers/deathstrandinglandscape1.jpg
+exec_always feh --bg-scale /home/alejandro/Wallpapers/clifford.jpeg
 
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 exec_always --no-startup-id polybar
 
-default_border pixel 4 
-default_floating_border pixel 4
+default_border pixel 3 
+default_floating_border pixel 3
 
 gaps inner 5 
 gaps outer 5 
