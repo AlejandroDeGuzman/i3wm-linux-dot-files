@@ -212,39 +212,13 @@ set $surface0 #313244
 set $base #1e1e2e
 set $mantle #181825
 set $crust #11111b
-
-# target                 title     bg    text   indicator  border
-client.focused           $lavender $base $text  $rosewater $lavender
-client.focused_inactive  $overlay0 $base $text  $rosewater $overlay0
-client.unfocused         $overlay0 $base $text  $rosewater $overlay0
-client.urgent            $peach    $base $peach $overlay0  $peach
-client.placeholder       $overlay0 $base $text  $overlay0  $overlay0
+# target                 title     bg    text      indicator    border
+client.focused           $mantle   $mauve $mantle  $rosewater $mauve
+client.focused_inactive  $overlay0 $base  $text    $rosewater $overlay0
+client.unfocused         $overlay0 $base  $text    $rosewater $overlay0
+client.urgent            $peach    $base  $peach   $overlay0  $peach
+client.placeholder       $overlay0 $base  $text    $overlay0  $overlay0
 client.background        $base
-
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-bar {
-  status_command i3status
-	position top
-	workspace_min_width 24
-	padding 2px 8px 2px 8px
-	strip_workspace_numbers yes
-
-
-  colors {
-    background         $base
-    statusline         $text
-    focused_statusline $text
-    focused_separator  $base
-
-    # target           border bg        text
-    focused_workspace  $base  $mauve    $crust
-    active_workspace   $base  $surface2 $text
-    inactive_workspace $base  $base     $text
-    urgent_workspace   $base  $red      $crust
-  }
-  position top
-}
 
 # lock the system
 bindsym $mod+shift+x exec i3lock
@@ -261,4 +235,6 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 # for wallpaper execution
 exec_always feh --bg-scale /home/alejandro/Wallpapers/deathstrandinglandscape1.jpg
 
+exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
+exec_always --no-startup-id polybar
 
