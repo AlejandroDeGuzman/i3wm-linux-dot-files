@@ -223,7 +223,7 @@ client.background        $base
 # lock the system
 bindsym $mod+shift+x exec i3lock
 
-exec --no-startup-id picom
+exec --no-startup-id picom 
 
 # Touchpad controls
 bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
