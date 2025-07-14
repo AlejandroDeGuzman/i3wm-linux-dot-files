@@ -249,8 +249,7 @@ bar {
 # lock the system
 bindsym $mod+shift+x exec i3lock
 
-# run clipboard manager automatically
-exec --no-startup-id copyq
+exec --no-startup-id picom
 
 # Touchpad controls
 bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
