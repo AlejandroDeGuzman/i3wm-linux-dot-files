@@ -238,3 +238,6 @@ exec_always feh --bg-scale /home/alejandro/Wallpapers/deathstrandinglandscape1.j
 exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 exec_always --no-startup-id polybar
 
+default_border pixel 0
+default_floating_border pixel 0
+for_window [class="^.*"] border pixel 0
