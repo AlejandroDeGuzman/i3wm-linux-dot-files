@@ -240,3 +240,7 @@ exec_always --no-startup-id polybar
 
 default_border pixel 4 
 default_floating_border pixel 4
+
+gaps inner 5 
+gaps outer 5 
+
