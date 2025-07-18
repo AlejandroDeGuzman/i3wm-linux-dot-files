@@ -234,12 +234,13 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
 exec_always feh --bg-scale /home/alejandro/Wallpapers/clifford.jpeg
 
-exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
-exec_always --no-startup-id polybar
+exec_always --no-startup-id ~/.config/polybar/scripts/launch_polybar.sh
+exec_always --no-startup-id ~/limit-volume.sh
+
 
 default_border pixel 3 
 default_floating_border pixel 3
 
-gaps inner 5 
-gaps outer 5 
+gaps inner 10 
+gaps outer 10  
 
