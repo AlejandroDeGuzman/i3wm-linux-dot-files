@@ -1,0 +1,129 @@
+password = [
+    48,
+    48,
+    43,
+    112,
+    109,
+    87,
+    97,
+    53,
+    122,
+    86,
+    76,
+    65,
+    85,
+    83,
+    82,
+    71,
+    103,
+    119,
+    98,
+    56,
+    90,
+    117,
+    72,
+    111,
+    48,
+    48,
+    89,
+    51,
+    56,
+    85,
+    78,
+    68,
+    78,
+    113,
+    102,
+    65,
+    99,
+    107,
+    88,
+    67,
+    48,
+    111,
+    57,
+    104,
+    120,
+    80,
+    104,
+    71,
+    85,
+    117,
+    101,
+    102,
+    47,
+    82,
+    48,
+    77,
+    103,
+    101,
+    108,
+    52,
+    83,
+    43,
+    50,
+    65,
+    81,
+    67,
+]
+size = [
+    0,
+    0,
+    0,
+    0,
+]
+size_ft = [
+    0,
+    0,
+    0,
+    0,
+]
+size_pf = [
+    0,
+    0,
+    0,
+    0,
+]
+view_style = 'original'
+scroll_style = 'scrollauto'
+image_quality = 'balanced'
+custom_image_quality = [50]
+show_remote_cursor = false
+lock_after_session_end = false
+terminal-persistent = false
+privacy_mode = false
+allow_swap_key = false
+port_forwards = []
+direct_failures = 0
+disable_audio = false
+disable_clipboard = false
+enable-file-copy-paste = true
+show_quality_monitor = false
+follow_remote_cursor = false
+follow_remote_window = false
+keyboard_mode = 'map'
+view_only = false
+sync-init-clipboard = false
+trackpad-speed = 100
+
+[options]
+i444 = ''
+remote-menubar-drag-x = '0.500544069640914'
+touch-mode = ''
+swap-left-right-mouse = ''
+custom-fps = '30'
+codec-preference = 'auto'
+zoom-cursor = ''
+collapse_toolbar = 'Y'
+
+[ui_flutter]
+wm_RemoteDesktop = '{"width":935.0,"height":1003.0,"offsetWidth":965.0,"offsetHeight":57.0,"isMaximized":false,"isFullscreen":false}'
+
+[info]
+username = ''
+hostname = 'alejandro-imac'
+platform = 'Linux'
+
+[transfer]
+write_jobs = []
+read_jobs = []

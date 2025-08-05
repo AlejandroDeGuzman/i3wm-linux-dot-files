@@ -1,0 +1,13 @@
+{
+  "version": "3.11.1",
+  "data": [
+    {
+      "localizedNameId": "home",
+      "path": "/home/alejandro"
+    },
+    {
+      "localizedNameId": "desktop",
+      "path": "/home/alejandro/Desktop"
+    }
+  ]
+}
