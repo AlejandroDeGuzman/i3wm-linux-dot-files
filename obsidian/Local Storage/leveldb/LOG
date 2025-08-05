@@ -1,3 +1,2 @@
-2025/08/03-13:52:22.516 fcb Reusing MANIFEST /home/alejandro/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
-2025/08/03-13:52:22.536 fcb Recovering log #3
-2025/08/03-13:52:22.536 fcb Reusing old log /home/alejandro/.config/obsidian/Local Storage/leveldb/000003.log 
+2025/07/30-19:20:43.141 a91c Creating DB /home/alejandro/.config/obsidian/Local Storage/leveldb since it was missing.
+2025/07/30-19:20:43.149 a91c Reusing MANIFEST /home/alejandro/.config/obsidian/Local Storage/leveldb/MANIFEST-000001

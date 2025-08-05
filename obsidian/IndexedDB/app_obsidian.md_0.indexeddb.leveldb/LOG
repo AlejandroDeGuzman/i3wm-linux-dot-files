@@ -1,3 +1,2 @@
-2025/08/03-13:52:23.116 fcb Reusing MANIFEST /home/alejandro/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2025/08/03-13:52:23.117 fcb Recovering log #3
-2025/08/03-13:52:23.124 fcb Reusing old log /home/alejandro/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000003.log 
+2025/07/30-19:22:49.815 a91c Creating DB /home/alejandro/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb since it was missing.
+2025/07/30-19:22:49.818 a91c Reusing MANIFEST /home/alejandro/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
